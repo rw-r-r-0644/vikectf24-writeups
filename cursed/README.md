@@ -163,7 +163,7 @@ Wrong!
 ..success!
 
 ### Dynamic analysis of the binary
-Now that we got the binary to run in Qiling, we can analyze its behaviour after it reads the flag from stdin. If you've never used Qiling before, here's an example script that may be used as a starting point: [insert gist here]; see [docs.qiling.io](docs.qiling.io) for reference.
+Now that we got the binary to run in Qiling, we can analyze its behaviour after it reads the flag from stdin. If you've never used Qiling before, here's an example script that may be used as a starting point: [qiling-analyze.py](./scripts/qiling-analyze.py); see [docs.qiling.io](docs.qiling.io) for reference.
 Through the script we can obtain a ton of information about the behaviour of the program; the key is now in filtering the specific bits we're interested about.
 
 #### Searching for the encrypted flag
